@@ -1,0 +1,73 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+th {
+  background-color: rgb(131, 131, 131);
+  border: 1px solid #0a0a0a;
+  text-align: left;
+  padding: 8px;
+  color: rgb(250, 248, 248);
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Pagination Css*/
+
+.paginationBtn {
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBtn a {
+  padding: 3px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #0c0c0c;
+  color: rgb(20, 20, 20);
+  cursor: pointer;
+}
+
+.paginationBtn a:hover {
+  color: black;
+  background-color: rgb(166 169 170);
+}
+
+.paginationActive a {
+  color: white;
+  background-color: rgb(166 169 170);
+}
+
+input {
+  border: 0px solid lightgray;
+  background-color: lightgray;
+  font-family: inherit;
+  font-size: 13px;
+  height: 26px;
+  width: 85px;
+}
+select {
+  border: 0px solid lightgray;
+  background-color: lightgray;
+  font-family: inherit;
+  font-size: 13px;
+  height: 26px;
+  width: 65px;
+}
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
